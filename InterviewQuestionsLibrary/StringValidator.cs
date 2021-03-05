@@ -14,6 +14,9 @@ namespace InterviewQuestionsLibrary
         Meaning for every { there is a corresponding } bracket. Return true if they do, return false if they do not. 
         Please unit test with the following use cases (and any others you choose to ensure functionality):
      */
+
+        //There is probably a library you could find and use but that wouldn't be much of an example of my code,
+        //so I am opting to write my own algorithm for it.
     public static class StringValidator
     {
         /// <summary>
