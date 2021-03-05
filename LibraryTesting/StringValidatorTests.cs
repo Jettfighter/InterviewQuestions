@@ -68,6 +68,22 @@ namespace LibraryTesting
         }
 
         [TestMethod]
+        public void StringWithTooManyClosedBracketsIsFalse()
+        {
+            //Arrange
+            string invalidString = "{}}";
+            bool isValid;
+
+            //Act
+
+            isValid = StringValidator.HasMatchingBrackets(invalidString);
+
+            //Assert
+
+            Assert.IsFalse(isValid, "A string that has too many close brackets is returning true!!!");
+        }
+
+        [TestMethod]
         public void StringWithNoBracketsIsTrue()
         {
             //Arrange
@@ -83,8 +99,38 @@ namespace LibraryTesting
             Assert.IsTrue(isValid, "A string that has no brackets is returning false!!!");
         }
 
-        //test for early break from method to save time
         //test to make sure special characters don't interfere with a valid string
+        [TestMethod]
+        public void StringWithSpecialCharactersButIsValidReturnsTrue()
+        {
+            //Arrange
+            string validString = "{!@#$%^&*()_+{}|:?><,./;'[]\\=-0987654321` }";
+            bool isValid;
+
+            //Act
+
+            isValid = StringValidator.HasMatchingBrackets(validString);
+
+            //Assert
+
+            Assert.IsTrue(isValid, "A valid string is returning false!!!");
+        }
+
         //test to make sure special characters don't interfere with an invalid string
+        [TestMethod]
+        public void StringWithSpecialCharactersButIsInvalidReturnsFalse()
+        {
+            //Arrange
+            string invalidString = "{}!@#$%^&*()_+{}|:?><,./;'[]\\=-0987654321` }";
+            bool isValid;
+
+            //Act
+
+            isValid = StringValidator.HasMatchingBrackets(invalidString);
+
+            //Assert
+
+            Assert.IsFalse(isValid, "An invalid string is returning true!!!");
+        }
     }
 }
