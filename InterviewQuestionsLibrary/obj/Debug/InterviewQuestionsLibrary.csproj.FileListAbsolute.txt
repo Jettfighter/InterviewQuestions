@@ -1,0 +1,6 @@
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\bin\Debug\InterviewQuestionsLibrary.exe.config
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\bin\Debug\InterviewQuestionsLibrary.exe
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\bin\Debug\InterviewQuestionsLibrary.pdb
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\obj\Debug\InterviewQuestionsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\obj\Debug\InterviewQuestionsLibrary.exe
+C:\Users\JettsPC\Documents\GitHub\Interview Questions\InterviewQuestionsLibrary\InterviewQuestionsLibrary\obj\Debug\InterviewQuestionsLibrary.pdb
